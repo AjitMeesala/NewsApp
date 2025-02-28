@@ -1,7 +1,7 @@
 import React from 'react'
 import loading from './loading.gif'
 
-function Spinner() {
+const Spinner = () => {
   return (
     <div className='my-3 text-center'>
       <img src={loading} alt="" />
